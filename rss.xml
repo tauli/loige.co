@@ -1,4 +1,466 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Luciano Mammino "Loige" - Web developer, entrepreneur, fighter, butterfly maker!]]></title><description><![CDATA[The website of Luciano Mammino a.k.a. Loige, Web developer, entrepreneur, fighter, butterfly maker]]></description><link>https://loige.co/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 09 Dec 2018 17:17:32 GMT</lastBuildDate><item><title><![CDATA[Emerging JavaScript pattern: multiple return values]]></title><description><![CDATA[In this article, I want to explore an interesting pattern that I am seeing more and more in JavaScript code which allows you to return…]]></description><link>https://loige.co/emerging-javascript-pattern-multiple-return-values</link><guid isPermaLink="false">https://loige.co/emerging-javascript-pattern-multiple-return-values</guid><pubDate>Sun, 11 Nov 2018 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://loige.co/static/emerging-javascript-pattern-multiple-return-values-fb-9b2596c052d70041eb710b8860e0d227.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;In this article, I want to explore an interesting pattern that I am seeing more and more in JavaScript code which allows you to return multiple values from a function.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Luciano Mammino "Loige" - Web developer, entrepreneur, fighter, butterfly maker!]]></title><description><![CDATA[The website of Luciano Mammino a.k.a. Loige, Web developer, entrepreneur, fighter, butterfly maker]]></description><link>https://loige.co/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 17 Dec 2018 18:48:20 GMT</lastBuildDate><item><title><![CDATA[A random emoji in your terminal prompt. How and Why!]]></title><description><![CDATA[In this article, we will see how to customize our terminal prompt and add a random emoji in it. This is my terminal prompt: If I could have…]]></description><link>https://loige.co/random-emoji-in-your-prompt-how-and-why</link><guid isPermaLink="false">https://loige.co/random-emoji-in-your-prompt-how-and-why</guid><pubDate>Mon, 17 Dec 2018 18:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://loige.co/static/random-emoji-in-your-prompt-how-and-why-fb-92ffbf9bb7ea19bc7d5042cbadef5651.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;In this article, we will see how to customize our terminal prompt and add a random emoji in it.&lt;/p&gt;
+&lt;p&gt;This is my terminal prompt:&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 922px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.0173535791757%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACP0lEQVQ4y5WS627SYBjH31JgLe2Al/NgYz0XKKeW0qFf1izZBspkTp1X4FXqPRgVjfECxrfdwFYenxZiokIy3uTXvmnSX/7PgRA8H95d9G9vx2ezi/HpdHLuv7xcMR2f+1fjS//tbOa/f3Ptv55O/JtXL/ybq784xW9n19OJTdZHHDj2Z8nzoGYNArlzAhIid0fR+8gagNzzoG4NoWraiPMPdlBrDuBA731Bl0CSCULTh8ac0TtANCug+hDK1nPImR5Q3QNRawMvN4BQFUhe24AakLwOJCf/iDOEhgmpUNO/JfU2xGXrMaPYS6q7y6zmLDOKsxQka5mSmkumZGzjkSmbECuq31lCsqRaJLTWMOcJswNxTJjTXSg1R1BoeFAwTyCtdkBUWkCKOuDP/1PUA1L6I6RE5GM0p1jzhNYBVm4FotQDTAb7ch9EqQ/8cQu4emMHYYqn1aY3T5pdiKvYQ83FZB7kjSGEd1FpgyA3ny6M4YNKmFBfJUwrNg7DBewhZFQHsIeYcgehkOJoVnOxh92oh2GyivUsSpnDexpbIao79JBLJmha7q2EWHJmnTACSw4T4pSfLkzEWbpfb31FGa5N6wGF4aQDLBnlToDCAEsOUBgwm3lYC+fR2oR7uHdo/ORbLrC4xOFiFxqj1WIbuNhqFwTFgvCnrZSbKNR+RQnxZLiy9jF11LmPVeQ77sBY8FVzwYXgPVlRF4mKsmDy8jbukPtY/vgTDjhN9lgOxURFXMRBBptgtuMgLrNysL8BETQvYV2bE3IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/my-terminal-7a4d581b929bb46d8dfada9656273774-82fbe.webp 256w,
+/static/my-terminal-7a4d581b929bb46d8dfada9656273774-708db.webp 512w,
+/static/my-terminal-7a4d581b929bb46d8dfada9656273774-cf7c0.webp 922w&quot;
+          sizes=&quot;(max-width: 922px) 100vw, 922px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/my-terminal-7a4d581b929bb46d8dfada9656273774-207a1.png 256w,
+/static/my-terminal-7a4d581b929bb46d8dfada9656273774-fb833.png 512w,
+/static/my-terminal-7a4d581b929bb46d8dfada9656273774-1ad99.png 922w&quot;
+          sizes=&quot;(max-width: 922px) 100vw, 922px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/my-terminal-7a4d581b929bb46d8dfada9656273774-1ad99.png&quot;
+          alt=&quot;My terminal prompt with random emojis&quot;
+          title=&quot;&quot;
+          src=&quot;/static/my-terminal-7a4d581b929bb46d8dfada9656273774-1ad99.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;If I could have a penny every time somebody asked me how did I put a random emoji in there, well… I wouldn’t probably be a millionaire, but I would definitely be able to afford few more coffees every day and be less sleepy 😴!&lt;/p&gt;
+&lt;p&gt;In this article I’ll explain how I &lt;em&gt;emojified&lt;/em&gt; my terminal and, since it is very simple stuff, I’ll also try to explore some extra details on how to customize your bash experience.&lt;/p&gt;
+&lt;h2 id=&quot;bash-config&quot;&gt;&lt;a href=&quot;#bash-config&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bash config&lt;/h2&gt;
+&lt;p&gt;Bash customizations are generally made in a file saved in the user home directory. This file is generally called &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; (more common on Linux systems) or &lt;code class=&quot;language-text&quot;&gt;.bash_profile&lt;/code&gt; (more common on MacOS). This file is essentially a Bash script file that gets loaded every single time you open a terminal session.&lt;/p&gt;
+&lt;p&gt;Here’s an example of a possible &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Source global definitions&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -f /etc/bashrc &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;.&lt;/span&gt; /etc/bashrc
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# various command shortcuts&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; og&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ls -ogrt&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; ll&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ls -al&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; lc&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ls -C&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; dir&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ls -lrt&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# in case you are a MS-DOS lover :P&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; h&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;history&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; p&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;pwd -P&apos;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# shows the &quot;real&quot; path in bash, not the path via symlinks&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; et&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;emacs-tty&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;alias&lt;/span&gt; python&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;python2.7
+
+&lt;span class=&quot;token comment&quot;&gt;# environment&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;export&lt;/span&gt; PS1&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;[\u@\h \W]$ &apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Set the command prompt!&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;export&lt;/span&gt; HOST&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;uname&lt;/span&gt; -n&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;export&lt;/span&gt; EDITOR&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;vim
+&lt;span class=&quot;token function&quot;&gt;export&lt;/span&gt; PATH&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$HOME&lt;/span&gt;/bin/:&lt;span class=&quot;token variable&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can see, this script has the only goal of setting up your bash environment. For instance, you can load other configuration files (here we load a global configuration if it is available). You can define shortcuts and aliases for common commands. Finally, you can export environment variables, for instance to define your default text editor or to modify/extend your &lt;code class=&quot;language-text&quot;&gt;PATH&lt;/code&gt; (a list of directories where to look for executable commands).&lt;/p&gt;
+&lt;h2 id=&quot;the-ps1-variable&quot;&gt;&lt;a href=&quot;#the-ps1-variable&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The PS1 variable&lt;/h2&gt;
+&lt;p&gt;We briefly touched on &lt;code class=&quot;language-text&quot;&gt;PATH&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;EDITOR&lt;/code&gt;. There are many other &lt;em&gt;special&lt;/em&gt; variables in Bash that can be used to customize the look and feel and the behavior of your terminal.&lt;/p&gt;
+&lt;p&gt;One of those variables (the most important in this article) is called &lt;code class=&quot;language-text&quot;&gt;PS1&lt;/code&gt;. If I were a betting man, I would bet that the name stands for &lt;code class=&quot;language-text&quot;&gt;Prompt Style 1&lt;/code&gt;, as it allows you to define the look and feel of the primary bash prompt format, but I am not actually sure what it stands for (if you know it, please let me know in the comments).&lt;/p&gt;
+&lt;p&gt;In the configuration example above we are defining the &lt;code class=&quot;language-text&quot;&gt;PS1&lt;/code&gt; variable as follows:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;export&lt;/span&gt; PS1&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;[\u@\h \W]$ &apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Which, in my personal laptop, renders like this:&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 25.045703839122485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABCElEQVQY033My0rDQBSA4UlSE8Romou2NslEqLQ0aVRMIRUi2Gku1YVJC0JHd76n+AQV9FEEEdwcJxd30oGP/5yzGJSrgfj8QFbZPXmMZ/E6iWOaJkktTiiZ39BVUdBlntMsTejtYlG5Y+aElNbME5mRYhIEu0g3TDwMom8/SsGbxjAKCZxHGbhs7l9ew2iSgu1NwfLCiumGgP2rqgfYA8UZg3Lig4LdT9kwB4jfa/fFnvsjWWcgWT7smGMQmwrHLkjmBSBjUDv8p5Uh20+/hP0jF/GS3ONV/Mqp9jvXtjesb3/YvaqgOdtsmA9Bwy8tWXcQe3wLIY3pMh2hbldolDO3XaepXv71CymJXbdDBNFjAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-efdf6.webp 256w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-4c7bd.webp 512w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-f1156.webp 1024w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-aa9ae.webp 1536w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-b7b0f.webp 2048w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-7fc34.webp 2188w&quot;
+          sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-e4c29.png 256w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-6ee88.png 512w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-0e7bf.png 1024w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-9dac0.png 1536w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-a2a88.png 2048w,
+/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-82ca8.png 2188w&quot;
+          sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-0e7bf.png&quot;
+          alt=&quot;Sample terminal bash prompt&quot;
+          title=&quot;&quot;
+          src=&quot;/static/sample-prompt-style-example-deb3165e13e52bd6d18a3176d03688f6-0e7bf.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;At this point, you are probably already grasping how this works. The &lt;code class=&quot;language-text&quot;&gt;PS1&lt;/code&gt; variable acts as a template, where special &lt;em&gt;escape sequences&lt;/em&gt; like &lt;code class=&quot;language-text&quot;&gt;\u&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;\h&lt;/code&gt; can be used to indicate &lt;em&gt;“replace this with my actual username (and hostname)”&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There are several sets of escape sequences that might be supported on different operative systems and different types of console, but here’s a list of the most common and widely supported escape sequences:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\a&lt;/code&gt;: an ASCII bell character (07)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\d&lt;/code&gt; the date in “Weekday Month Date” format (e.g., “Tue May 26”)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\h&lt;/code&gt; the hostname up to the first `.’&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\H&lt;/code&gt; the full hostname&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\n&lt;/code&gt; newline&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\s&lt;/code&gt; the name of the shell, the basename of $0 (the portion following the final slash)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\t&lt;/code&gt; the current time in 24-hour HH:MM:SS format&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\T&lt;/code&gt; the current time in 12-hour HH:MM:SS format&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\@&lt;/code&gt; the current time in 12-hour am/pm format&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\u&lt;/code&gt; the username of the current user&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\w&lt;/code&gt; the current working directory&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\$&lt;/code&gt; if the effective UID is 0, a #, otherwise a $ (used to distinguish whether you are root or not)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\\&lt;/code&gt; a backslash&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\[&lt;/code&gt; begin a sequence of non-printing characters, which could be used to embed a terminal con­ trol sequence into the prompt&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\]&lt;/code&gt; end a sequence of non-printing characters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more comprehensive lists checkout:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/ANSI_escape_code&quot;&gt;ANSI escape code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://tldp.org/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html&quot;&gt;Bash Prompt Escape Sequences&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;👌 &lt;strong&gt;Pro tip&lt;/strong&gt;: There’s also a &lt;code class=&quot;language-text&quot;&gt;PS2&lt;/code&gt; variable, which is the secondary prompt displayed when a command needs more input (e.g. a multi-line command). This is generally set as &lt;code class=&quot;language-text&quot;&gt;PS2=&amp;#39;&amp;gt; &amp;#39;&lt;/code&gt;.&lt;br&gt;
+Also &lt;code class=&quot;language-text&quot;&gt;PS3&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;PS4&lt;/code&gt; exist. Funny enough this is not a pun to PlayStation players… If you are curious to know what they are used for, Archlinux has a great &lt;a href=&quot;https://wiki.archlinux.org/index.php/Bash/Prompt_customization#Prompts&quot;&gt;section on terminal prompts&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;the-random-variable&quot;&gt;&lt;a href=&quot;#the-random-variable&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The RANDOM variable&lt;/h2&gt;
+&lt;p&gt;For our purpose, another useful Bash &lt;em&gt;special&lt;/em&gt; variable is &lt;code class=&quot;language-text&quot;&gt;RANDOM&lt;/code&gt;. Its goal is very simple, as the name suggests, it always evaluate to a different random value.&lt;/p&gt;
+&lt;p&gt;Try to run the following command multiple times to have a feeling for it:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$RANDOM&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I just ran this command 5 times and this is the list of outputs I got:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;31434&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;25704&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;32466&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;10374&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;29063&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To be more accurate, when using &lt;code class=&quot;language-text&quot;&gt;$RANDOM&lt;/code&gt;, we are not referencing a constant value or a variable, but an internal Bash function that returns a &lt;em&gt;pseudorandom&lt;/em&gt; integer in the range &lt;code class=&quot;language-text&quot;&gt;[0-32767)&lt;/code&gt; (&lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt; included, &lt;code class=&quot;language-text&quot;&gt;32767&lt;/code&gt; excluded).&lt;/p&gt;
+&lt;p&gt;This primitive is generally good enough when you need to do something random, like extracting an arbitrary element from an array.&lt;/p&gt;
+&lt;p&gt;Be careful though because this technique is not strong enough for security sensitive situations like generating an encryption key.&lt;/p&gt;
+&lt;p&gt;There are slightly more advanced use cases, for instance you might need to extract a random number over a smaller positive range. In such case you can use the &lt;em&gt;modulo operator&lt;/em&gt; and do something like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;SMALLER_RANDOM&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;expr &lt;span class=&quot;token variable&quot;&gt;$RANDOM&lt;/span&gt; % 22
+&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$SMALLER_RANDOM&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will print a number between &lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;22&lt;/code&gt; (excluded).&lt;/p&gt;
+&lt;p&gt;For other more advanced use cases check out the dedicated &lt;a href=&quot;http://tldp.org/LDP/abs/html/randomvar.html&quot;&gt;$RANDOM section in the &lt;strong&gt;Advanced Bash-Scripting Guide&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;bash-arrays&quot;&gt;&lt;a href=&quot;#bash-arrays&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bash arrays&lt;/h2&gt;
+&lt;p&gt;In Bash, an array is a variable containing multiple values. Any variable may be used as an array and there is no maximum limit to the size of an array.&lt;/p&gt;
+&lt;p&gt;You can define an array in several different ways. You can assign the elements of an array one by one over different assignment statements:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;A&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;1
+A&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;1&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;2
+A&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;2&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;3
+&lt;span class=&quot;token comment&quot;&gt;# ...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In a more generic fashion, you can assign a value in an given array index with the syntax &lt;code class=&quot;language-text&quot;&gt;ARRAY[INDEX]=value&lt;/code&gt;, where &lt;code class=&quot;language-text&quot;&gt;INDEX&lt;/code&gt; is an expression that is evaluated to a &lt;em&gt;non-negative integer&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Of course there is a shorter version that allows you to initialize an array with multiple elements with a single assignment instructions:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;A&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;1 2 3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When you want to read (&lt;em&gt;dereference&lt;/em&gt;) a value out of an array you can do it this way:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${A[2]}&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will print &lt;code class=&quot;language-text&quot;&gt;3&lt;/code&gt; as Bash arrays are &lt;em&gt;zero-indexed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to reference all the elements in the array you can do it as follows:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${A[*]}&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 1 2 3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${A[@]}&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 1 2 3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The elements in an array can be also strings and you don’t need to wrap them in quotes (unless a string includes a space in it). For instance you can create the following array:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;SPORTS&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Judo Jiu-jitsu &lt;span class=&quot;token string&quot;&gt;&apos;Sicilian stick fighting&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To loop over the elements of an array:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; SPORT &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;${SPORTS[@]}&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$SPORT&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# prints:&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Judo&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Jiu-jitsu&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Sicilian stick fighting&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Finally, to get the length of an array you can use the following syntax:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;${#SPORTS[@]}&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 3 (notice the &quot;#&quot; before the variable name)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There is a lot more you can do with arrays. This is enough for what we want to achieve in this article, but if you are curious you can checkout the &lt;a href=&quot;http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_10_02.html&quot;&gt;array section in the &lt;strong&gt;Bash Beginners Guide&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;putting-it-all-together&quot;&gt;&lt;a href=&quot;#putting-it-all-together&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Putting it all together&lt;/h2&gt;
+&lt;p&gt;Ok, now that we know about Bash config, Bash &lt;code class=&quot;language-text&quot;&gt;PS1&lt;/code&gt; variable, Bash &lt;code class=&quot;language-text&quot;&gt;RANDOM&lt;/code&gt; and Bash arrays, we have enough knowledge to be able to render a random emoji in our terminal prompt.&lt;/p&gt;
+&lt;p&gt;Let’s try to write a simple &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; file that can do that:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .bashrc (or .bash_profile)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# declares an array with the emojis we want to support&lt;/span&gt;
+EMOJIS&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;😺 😸 😹 😻 😼 😽 🙀 😿 😾&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# selects a random element from the EMOJIS set&lt;/span&gt;
+SELECTED_EMOJI&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;${EMOJIS[$RANDOM % ${#EMOJIS[@]}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# declare the terminal prompt format&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;export&lt;/span&gt; PS1&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;RANDOM_EMOJI&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;  [\u@\h \W]$ &apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will look as follows in my machine:&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.06565656565657%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAB+0lEQVQoz6XS327SUBzA8dIu6mDIv5ZxgMGAFh3/aoHBaCm0BQqEoQmYbcYb8WaaeGEodz6AT+AjOH0yH2BbTZzu/DwUYYm3O8kn5/Qk55vfRanPmun9tNBiL5+raGI00MlARafDFpp2ZTTpNtBsOkAfZydoNjHR+1djdH46Qudnxxvvzo6jH16/CE9NlaaW681I/dIfayA1jUtF79s1teOQNdM+avdsxRjYzc7QFmuqna807EJVJvvGNfn+Re5/RJPpjBNUWoXve4Ua7OYULNR7EBdbgAoK7Jd1SEoaRPIycE/r8DBWACqQBirE/0cgMj9pd0Bygq22eJGW6uSxflNqjTB/2MGZqoGfHJmOfamNY0UFexJFTLE8ZsJZTN+5JYAJC1dbnuAqaBrFC6HSIBMZN5I+xtl6z4nmlSHOyQOcruh4T1TxTrLkBJ0QJ6zdupZBTrhi1sFBv/xNqMqQkPTfojbGfK2LMySYI8EDJ2jgeEnF7kRhE3TdcYJ0WLjeBNua+DUlHkIkJ//J1juQKDUhXlQgXdEgVW6TswyRgzpE+Ca42AyQqQh+bTklmZC/ZDyBZ06QZf36TpBbeENo7uOi88cssjzBXcsTCFveUMR65GOtbT9nBUMpi972WbTbt9pX5sSCcfvf0lsPWOrfchHLf4i5h2WDAgDqLwcPwKpLBxvnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-efdf6.webp 256w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-4c7bd.webp 512w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-f1156.webp 1024w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-aa9ae.webp 1536w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-f85df.webp 1584w&quot;
+          sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-e4c29.png 256w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-6ee88.png 512w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-0e7bf.png 1024w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-9dac0.png 1536w,
+/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-e7690.png 1584w&quot;
+          sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-0e7bf.png&quot;
+          alt=&quot;A terminal full of random emoji cats&quot;
+          title=&quot;&quot;
+          src=&quot;/static/some-random-cat-emojis-in-my-terminal-prompt-f13d9db50d2d7d4c579f5626c6ceac59-0e7bf.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;Mission complete!&lt;/p&gt;
+&lt;p&gt;But wait, not so quick! Let’s go over all the code once again to make sure we understand what’s going on behind the scenes.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;EMOJIS&lt;/code&gt; is just a simple array of strings, where every string is made up by just an emoji.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;SELECTED_EMOJI&lt;/code&gt; is a dynamic value that gets initialized to a random emoji from the set of supported emojis (&lt;code class=&quot;language-text&quot;&gt;EMOJIS&lt;/code&gt;). This is the complicated part as it’s a &lt;em&gt;one-liner&lt;/em&gt; made up by different expressions on the right-hand side of the assignment. Let’s break it down:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;${#EMOJIS[@]}&lt;/code&gt; will be evaluated to the length of the &lt;code class=&quot;language-text&quot;&gt;EMOJIS&lt;/code&gt; array&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;$RANDOM % ${#EMOJIS[@]}&lt;/code&gt; will calculate a random integer and normalize it to the number of elements in the &lt;code class=&quot;language-text&quot;&gt;EMOJIS&lt;/code&gt; array using the &lt;em&gt;modulo operator&lt;/em&gt;, so this is essentially extracting a random index for the &lt;code class=&quot;language-text&quot;&gt;EMOJIS&lt;/code&gt; array.&lt;/li&gt;
+&lt;li&gt;Finally we use the result of this expression to dereference a random element from the array and we assign it to &lt;code class=&quot;language-text&quot;&gt;SELECTED_EMOJI&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One last thing to notice is that in our &lt;code class=&quot;language-text&quot;&gt;PS1&lt;/code&gt; prompt formatting string we are referencing the &lt;code class=&quot;language-text&quot;&gt;RANDOM_EMOJI&lt;/code&gt; variable with the following syntax: &lt;code class=&quot;language-text&quot;&gt;$(RANDOM_EMOJI)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pretty neat, right?&lt;/p&gt;
+&lt;h2 id=&quot;bonus-bash-formatting&quot;&gt;&lt;a href=&quot;#bonus-bash-formatting&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bonus: bash formatting&lt;/h2&gt;
+&lt;p&gt;You probably noticed that my prompt (as well as most people prompt) comes with some fancy colors and other formatting wonders like bold and underlined text.&lt;/p&gt;
+&lt;p&gt;Most terminals support different formatting options: bold, dim, underlined, blink, hidden, inverted and a number of different colors (for both background and foreground!).&lt;/p&gt;
+&lt;p&gt;This is done by prefixing the text with some special escape sequences.&lt;/p&gt;
+&lt;p&gt;To give you an example, let’s have a look at this code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;token string&quot;&gt;&quot;My name is \033[32mLuciano\033[39m and my twitter handle is \033[1m@loige\033[21m&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will render as follows:&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 24.720149253731343%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABHklEQVQY03XLQU+DMBgG4ALb1ImAMMMIIB076OYGYzoFloVBGdEsO3ioHrwbf59/wZn4d7x5+6xFEz3Y5Mnb7+tb9OjHzacHsqkouV+VFS2KgsuWS5rnOc+quqbr9YbvSVlSQggtyxWbCc15n9wRUtIsyzpI0VW7F12843QBdnAF7iiG43EM/WgBOEyZOfjRHLwwAWd4Cc5Z3bEGM/DGCeAgBS9I+F6x/BtkGh2s+5MP+WQGEh5Bywug7U1A9s9B7k1hH09B7oewx94EcwBityaYpyB1hyBZQ558r9m3yJBVs23iZ9HtvTWOvK2gOq9IY1T7F4cTD90/hC+auxXq+aWhmDFiR2QOJIQMlnqT2WF2v/3cWwwr6tL/VPZf+gRFkl3uut32mAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-efdf6.webp 256w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-4c7bd.webp 512w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-f1156.webp 1024w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-aa9ae.webp 1536w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-b7b0f.webp 2048w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-a2caa.webp 2144w&quot;
+          sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-e4c29.png 256w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-6ee88.png 512w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-0e7bf.png 1024w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-9dac0.png 1536w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-a2a88.png 2048w,
+/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-6b01b.png 2144w&quot;
+          sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-0e7bf.png&quot;
+          alt=&quot;Formatted text in a Bash terminal&quot;
+          title=&quot;&quot;
+          src=&quot;/static/formatted-text-in-bash-terminal-45aa95410b9b608740234be7badca673-0e7bf.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;The way this works is by using a &lt;em&gt;special&lt;/em&gt; escape sequence, the &lt;code class=&quot;language-text&quot;&gt;\033[&lt;/code&gt; prefix sequence. This sequence can be parameterized to indicate the start or the end of different formatting options. The generic syntax is &lt;code class=&quot;language-text&quot;&gt;\033[_FormatCode_m&lt;/code&gt;, where &lt;code class=&quot;language-text&quot;&gt;_FormatCode_&lt;/code&gt; will be replaced with some value to indicate different formatting options.&lt;/p&gt;
+&lt;p&gt;In my previous example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\033[32m&lt;/code&gt; stands for “start color green”&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\033[39m&lt;/code&gt; stands for “start default color (color reset)”&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\033[1m&lt;/code&gt; stands for “start emphasis (or bold)”&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\033[21m&lt;/code&gt; stands for “reset emphasis (or end bold)”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is a table with different &lt;code class=&quot;language-text&quot;&gt;_FormatCode_&lt;/code&gt; values and their effect.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;right&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;_FormatCode_&lt;/code&gt;&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;1&lt;/td&gt;
+&lt;td&gt;Bold&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;2&lt;/td&gt;
+&lt;td&gt;Dim&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;4&lt;/td&gt;
+&lt;td&gt;Underline&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;5&lt;/td&gt;
+&lt;td&gt;Blink&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;8&lt;/td&gt;
+&lt;td&gt;Hidden&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;0&lt;/td&gt;
+&lt;td&gt;Reset all&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;21&lt;/td&gt;
+&lt;td&gt;Reset bold&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;22&lt;/td&gt;
+&lt;td&gt;Reset dim&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;24&lt;/td&gt;
+&lt;td&gt;Reset underline&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;25&lt;/td&gt;
+&lt;td&gt;Reset blink&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;28&lt;/td&gt;
+&lt;td&gt;Reset hidden&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;39&lt;/td&gt;
+&lt;td&gt;Default color&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;30&lt;/td&gt;
+&lt;td&gt;Black&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;31&lt;/td&gt;
+&lt;td&gt;Red&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;32&lt;/td&gt;
+&lt;td&gt;Green&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;33&lt;/td&gt;
+&lt;td&gt;Yellow&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;34&lt;/td&gt;
+&lt;td&gt;Blue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;35&lt;/td&gt;
+&lt;td&gt;Magenta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;36&lt;/td&gt;
+&lt;td&gt;Cyan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;97&lt;/td&gt;
+&lt;td&gt;White&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;49&lt;/td&gt;
+&lt;td&gt;Default bg color&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;40&lt;/td&gt;
+&lt;td&gt;Black bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;41&lt;/td&gt;
+&lt;td&gt;Red bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;42&lt;/td&gt;
+&lt;td&gt;Green bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;43&lt;/td&gt;
+&lt;td&gt;Yellow bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;44&lt;/td&gt;
+&lt;td&gt;Blue bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;45&lt;/td&gt;
+&lt;td&gt;Magenta bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;46&lt;/td&gt;
+&lt;td&gt;Cyan bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;right&quot;&gt;107&lt;/td&gt;
+&lt;td&gt;White bg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For more information about additional formatting options checkout &lt;a href=&quot;https://misc.flogisoft.com/bash/tip_colors_and_formatting&quot;&gt;Bash tips: Colors and formatting&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Other ways to achieve similar formatting are &lt;a href=&quot;http://unixhelp.ed.ac.uk/CGI/man-cgi?tput+1&quot;&gt;tput&lt;/a&gt; and &lt;a href=&quot;http://www.manpagez.com/man/5/terminfo/&quot;&gt;terminfo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;bonus-2-my-actual-ps1&quot;&gt;&lt;a href=&quot;#bonus-2-my-actual-ps1&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bonus 2: my actual PS1!&lt;/h2&gt;
+&lt;p&gt;I keep &lt;a href=&quot;https://github.com/lmammino/dotfiles/blob/master/.bash_profile&quot;&gt;my &lt;code class=&quot;language-text&quot;&gt;.bash_profile&lt;/code&gt;&lt;/a&gt; public on GitHub (not because it’s cool, but because this way I can easily clone it into different machines).&lt;/p&gt;
+&lt;p&gt;If you are curious you can see how my &lt;em&gt;bash-emojification&lt;/em&gt; is actually done or what else I put in my &lt;code class=&quot;language-text&quot;&gt;PS1&lt;/code&gt; variable or even some aliases I use.&lt;/p&gt;
+&lt;p&gt;Feel free to tell me what you think or ask questions about it in the comment box in this article.&lt;/p&gt;
+&lt;h2 id=&quot;bonus-3-a-bash-prompt-generator&quot;&gt;&lt;a href=&quot;#bonus-3-a-bash-prompt-generator&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bonus 3: A bash prompt generator&lt;/h2&gt;
+&lt;p&gt;Of course there had to be a service online to help you with this stuff! It turns out there are many!
+If you want to build your fancy Bash prompt in a &lt;em&gt;drag-and-dropppy&lt;/em&gt; or &lt;em&gt;clicky-clicky&lt;/em&gt; way, checkout these links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://bashrcgenerator.com/&quot;&gt;.bashrc PS1 generator by Julien Ricard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ezprompt.net/&quot;&gt;Easy Bash PS1 Generator by Josh Matthews&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At this point, you should know enough to be able to build your own PS1 generator website! Maybe that’s an idea for you next &lt;em&gt;hack-weekend&lt;/em&gt;!&lt;/p&gt;
+&lt;h2 id=&quot;why-all-of-this&quot;&gt;&lt;a href=&quot;#why-all-of-this&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why all of this?!&lt;/h2&gt;
+&lt;p&gt;In the title of this article I said “how and why”, but if you have been careful you probably noticed I never really explained why you might want to go through all of this stuff!&lt;/p&gt;
+&lt;p&gt;Well, the real reason why you should care about this is because “why not?!”&lt;/p&gt;
+&lt;p&gt;Seriously, there isn’t a very strong reason why this stuff is important, it is definitely fun and interesting but you might be a fantastic developer even without having all this knowledge (and without emojis in your terminal)!&lt;/p&gt;
+&lt;p&gt;Anyway, if this answer is not convincing you, I can actually prove that emojis in your terminal will make you more productive. Try to put a toilet (🚽) or a poop (💩) emoji in your list of supported emojis. Next time you’ll mistype a command and you’ll randomly see a poop emoji, I can assure you that you’ll have a bit of fun, your morale will stay up and you’ll hopefully keep pounding your way on the keyboard enjoying your work 😎.&lt;/p&gt;
+&lt;p&gt;Whether you believe me or not on this, I hope I’ll see you soon in the next article 😜&lt;/p&gt;
+&lt;p&gt;Byez!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Emerging JavaScript pattern: multiple return values]]></title><description><![CDATA[In this article, I want to explore an interesting pattern that I am seeing more and more in JavaScript code which allows you to return…]]></description><link>https://loige.co/emerging-javascript-pattern-multiple-return-values</link><guid isPermaLink="false">https://loige.co/emerging-javascript-pattern-multiple-return-values</guid><pubDate>Sun, 11 Nov 2018 17:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://loige.co/static/emerging-javascript-pattern-multiple-return-values-fb-9b2596c052d70041eb710b8860e0d227.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;In this article, I want to explore an interesting pattern that I am seeing more and more in JavaScript code which allows you to return multiple values from a function.&lt;/p&gt;
 &lt;p&gt;You probably know already that JavaScript does not support multiple return values natively, so this article will actually explore some ways to “simulate” this behavior.&lt;/p&gt;
 &lt;p&gt;One of the most famous usages of this pattern I have seen recently is within &lt;a href=&quot;https://reactjs.org/docs/hooks-overview.html&quot;&gt;React Hooks&lt;/a&gt;, but before delving into that, let’s see what I mean with “multiple return values” by exploring this concept in other languages.&lt;/p&gt;
 &lt;h2 id=&quot;multiple-return-values-in-other-languages&quot;&gt;&lt;a href=&quot;#multiple-return-values-in-other-languages&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Multiple return values in other languages&lt;/h2&gt;

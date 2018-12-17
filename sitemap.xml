@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://loige.co/random-emoji-in-your-prompt-how-and-why/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://loige.co/emerging-javascript-pattern-multiple-return-values/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://loige.co/aws-solution-architect-associate-exam-notes-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://loige.co/aws-command-line-s3-content-from-stdin-or-to-stdout/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -48,6 +49,8 @@
 <url> <loc>https://loige.co/page/3/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/page/4/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/page/5/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://loige.co/tag/bash/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://loige.co/tag/shell/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/javascript/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/node-js/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/design-patterns/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
@@ -55,8 +58,6 @@
 <url> <loc>https://loige.co/tag/lua/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/go/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/aws/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://loige.co/tag/bash/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
-<url> <loc>https://loige.co/tag/shell/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/life/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/serverless/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://loige.co/tag/ssl/</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
